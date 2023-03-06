@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cadastro da liga dos astonautas</title>
+</head>
+<body>
+  <h3>Cadastro da liga dos astonautas</h3>
+  <form>
+    <div>
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <br>
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="E-mail" required>
+
+      <label for="password"> - password:</label>
+      <input type="password" name="psw">
+      </div>
+      <br>
+      <div>
+
+        <label for="bday"> Data de nascimento:</label>
+        <input type="date" name="bday">
+        <label for="files">-Foto:</label>
+        <input type="file" id="files" name="files"><br>
+      </div>
+      <br>
+      <div>
+        <label for="nacionality">Nacionalidade:</label>
+          <select id="nacionality" name="nacionality">
+          <option value="brasileiro">brasileiro</option>
+          <option value="americano">americano</option>
+          <option value="Russo">Russo</option>
+        </select>
+        - Genero:
+        <input type="radio" id="female" name="gender" value="F">
+        <label for="female">F</label>
+        <input type="radio" id="male" name="gender" value="M">
+        <label for="male">M</label><br>
+      </div>
+      <br>
+      <div>
+        Suas principais qualidades:<br>
+        <label for="qualidade1"> Inteligência</label>
+        <input type="checkbox" id="qualidade1" name="qualidade1" value="Inteligência"> |
+        <label for="qualidade2">Resiliência</label>
+        <input type="checkbox" id="qualidade2" name="qualidade2" value="Resiliência"> |
+        <label for="qualidade3"> Preparo físico</label>
+        <input type="checkbox" id="qualidade3" name="qualidade3" value="Peparo físico"> |
+        <label for="qualidade4"> Educação</label>
+        <input type="checkbox" id="qualidade4" name="qualidade4" value="Educação"> |<br> 
+      </div>
+      <br>
+      <div>
+        <textarea name="message" rows="10" cols="30" placeholder="porque você gostaria de ser um astronauta?"></textarea>
+      
+        <input type="submit" value="Criar"> <br>
+      </div>
+
+</form>
+</body>
+</html>
